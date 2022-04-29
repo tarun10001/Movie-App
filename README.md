@@ -4,7 +4,8 @@ An application to find and manage movies you would like to see. The app uses TMD
 ## [Click here to see the website (Deployed link)](https://agitated-curie-fd4a77.netlify.app/)
 
 ## Screenshots of the app
-https://github.com/tarun10001/Movie-App/blob/main/moviefinder.png?raw=true
+![](https://github.com/tarun10001/Movie-App/blob/main/moviefinder.png?raw=true)
+
 
 ## Built with 
 
