@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+<link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="logo">
+        <div class="conatiner">
+          <p>Movie<span>Find</span> app</p>
+        </div>
+      </div>
+
+      <div class="search-container">
+        <div class="search-element">
+          <h3>Search Movie:</h3>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search Movie Title ..."
+            id="movie-search-box"
+            onkeyup="findMovies()"
+          />
+
+          <div class="search-list" id="search-list">
+              <!-- <div class="search-list-item">
+                  <div class="search-item-thumbnail">
+                      <img src = "https://i.ytimg.com/vi/EXaqGfbiTxc/maxresdefault.jpg">
+
+                  </div>
+                  <div class="search-item-info">
+                      <h3>Spider-Man No Way Home</h3>
+                      <p>2021</p>
+                  </div>
+              </div> -->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+<div class="result-container">
+    <div class="result-grid" id="result-grid">
+        <!-- <div class="movie-poster">
+            <img src = "https://i.ytimg.com/vi/EXaqGfbiTxc/maxresdefault.jpg" alt="movie poster">
+
+        </div>
+
+        <div class="movie-info">
+            <h3 class="movie-title">Spider-Man No Way Home</h3>
+            <ul class="movie-misc-info">
+                <li class="year">Year: 2021</li>
+                <li class="rated">IMDB Rating:8/10</li>
+                <li class="released">Released: 5 May 2021</li>
+            </ul>
+            <p class="genre"><b>Genre:</b>Action,Adventure, Comedy</p>
+            <p class="writer"><b>Writer:</b>James Gunn, Don Abnett</p>
+            <p class="actors"><b>Actors:</b>Tom Holland, Zendaya, William Defoe</p>
+            <p class="plot"><b>Plot:</b>Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.</p>
+            <p class="language"><b>Language:</b>English</p>
+
+        </div> -->
+
+    </div>
+
+</div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<script src="script.js"></script>
